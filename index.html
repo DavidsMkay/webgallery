@@ -3,13 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>David SerranoWeb Gallery</title>
-    <link rel="shortcut icon" href="img/favio.ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favi1.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/stylesheets.css">
      <link rel="stylesheet" href="css/animate.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="javascript/lightbox.js"></script>
+
+    <style> 
+div {
+    width: 90px;
+    height: 25px;
+    background-color: black;
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:black; left:1160px; top:0px;}
+    50%  {background-color:black; left:1160px; top:860px;}
+    75%  {background-color:black; left:0px; top:860px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:black; left:1160px; top:0px;}
+    50%  {background-color:black; left:1160px; top:860px;}
+    75%  {background-color:black; left:0px; top:860px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+<div>WELCOME</div>
  </head>
 
 <body>
